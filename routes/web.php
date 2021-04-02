@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('twitter', 'App\Http\Controllers\TwitterController@index');
+/*Route::get('twitter', 'App\Http\Controllers\TwitterController@index');*/
